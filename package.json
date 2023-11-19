@@ -1,5 +1,5 @@
 {
-  "name": "react-library-scaffold",
+  "name": "intry-test-component",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -18,22 +18,25 @@
   "devDependencies": {
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
+    "@types/react-test-renderer": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^6.10.0",
     "@typescript-eslint/parser": "^6.10.0",
     "@vitejs/plugin-react": "^4.2.0",
     "eslint": "^8.53.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
+    "react-test-renderer": "^18.2.0",
     "typescript": "^5.2.2",
-    "vite": "^5.0.0"
+    "vite": "^5.0.0",
+    "vitest": "^0.34.6"
   },
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "./dist/react-library-scaffold.umd.js",
-  "module": "./dist/react-library-scaffold.es.js",
+  "main": "./dist/intry-test-component.umd.js",
+  "module": "./dist/intry-test-component.es.js",
   "exports": {
     ".": {
-      "import": "./dist/react-library-scaffold.es.js",
-      "require": "./dist/react-library-scaffold.umd.js"
+      "import": "./dist/intry-test-component.es.js",
+      "require": "./dist/intry-test-component.umd.js"
     }
   },
   "author": "",

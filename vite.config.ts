@@ -13,7 +13,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     lib: {
-      entry: path.resolve("src", 'src/components/index.jsx'),
+      entry: path.resolve("src", 'component/index.tsx'),
       name: 'react-library-scaffold',
       fileName: (format) => `react-library-scaffold.${format}.js`
     },

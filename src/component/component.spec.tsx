@@ -1,12 +1,12 @@
-import React from 'react';
+// import React from 'react';
 import renderer from 'react-test-renderer';
-import { describe, expect, it} from 'vitest'
+import { describe, expect, it} from 'vitest';
 import { Greeting } from './index'
 
 describe('Greeting component', () => {
     it('Greeting component renders correctly', () => {
         const component = renderer.create(
-            <Greeting/>
+            <Greeting />
         )
 
         const tree = component.toJSON()
