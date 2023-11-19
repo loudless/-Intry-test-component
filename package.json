@@ -32,6 +32,7 @@
   "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
   "main": "./dist/intry-test-component.umd.js",
   "module": "./dist/intry-test-component.es.js",
+  "files": ["dist/**"],
   "exports": {
     ".": {
       "import": "./dist/intry-test-component.es.js",
