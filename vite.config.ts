@@ -14,8 +14,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve("src", 'component/index.tsx'),
-      name: 'react-library-scaffold',
-      fileName: (format) => `react-library-scaffold.${format}.js`
+      name: 'intry-test-component',
+      fileName: (format) => `intry-test-component.${format}.js`
     },
     rollupOptions: {
       external: ['react', 'react-dom'],
